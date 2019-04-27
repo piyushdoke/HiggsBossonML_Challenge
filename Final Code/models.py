@@ -15,7 +15,6 @@ from numpy import genfromtxt
 import numpy as np
 import csv
 import math
-from sklearn.metrics import precision_score, recall_score
 import helper
 
 def run_lr(train_data,train_labels,test_data,test_labels,weights):

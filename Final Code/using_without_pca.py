@@ -3,12 +3,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn import metrics
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.naive_bayes import GaussianNB
-from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.tree import DecisionTreeClassifier
-from xgboost import XGBClassifier
-from sklearn.ensemble import RandomForestClassifier
 from collections import Counter
 import pandas as pd
 from numpy import genfromtxt
